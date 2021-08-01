@@ -3,7 +3,7 @@
 ### Main Concept:
 - A linear model makes a prediction by simply computing a weighted sum of the input features, plus a constant called the bias term (also called the intercept term)
 
-![2021-08-01 07_41_53-Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow_ Concepts, To](https://user-images.githubusercontent.com/44503223/127771247-13624c93-025e-4f06-a93f-ad8d4cb127ab.png)
+![2021-08-01 07_43_21-Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow_ Concepts, To](https://user-images.githubusercontent.com/44503223/127771299-41aa6965-6a88-436a-a6a3-39e5152fd554.png)
 
 - The SVD approach used by Scikit-Learn’s Linear Regression class is about O(n^2). If we double the number of features, we multiply the computation time by roughly 4. 
 - Both the Normal Equation and the SVD approach get very slow when the number of features grows large (e.g., 100,000). In this case, Gradient Descent might be preferred.
