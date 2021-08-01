@@ -10,7 +10,7 @@
 
 ### Procedures:
 
-#### 1. Simulate Some Random Data
+#### 1. Simulate some random data
 
 ```Python
 import numpy as np
@@ -29,7 +29,7 @@ lin_reg.fit(X, y)
 lin_reg.intercept_, lin_reg.coef_
 ```
 
-#### 3. Visualize the Results
+#### 3. Visualize the results
 
 ![download](https://user-images.githubusercontent.com/44503223/127771201-9cd7b143-9e9d-4e53-8de3-a170f7f7e4b1.png)
 
